@@ -10,9 +10,9 @@ Screen1 As screen:
         ZIndex: =1
 
     Image1 As image:
-        Height: =468
+        Height: =590
         Image: ='Kermit-computer'
-        Width: =390
+        Width: =438
         X: =135
         Y: =192
         ZIndex: =2
