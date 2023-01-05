@@ -33,21 +33,21 @@ jobs:
         environment-url: 'https://org1f3bbabb.crm.dynamics.com/'
         user-name: 'admin@M365B962873.onmicrosoft.com'
         password-secret: ${{ secrets.POWERAPP_CREDENTIALS }}
-        solution-name: sample-solution-github
-        solution-output-file: out/exported/sample-solution-github.zip
+        solution-name: samplesolutiongithub
+        solution-output-file: out/exported/samplesolutiongithub.zip
 
     - name: unpack-solution action
       uses: microsoft/powerplatform-actions/unpack-solution@v0
       with:
-        solution-file: out/exported/sample-solution-github.zip
-        solution-folder: out/solutions/sample-solution-github
+        solution-file: out/exported/samplesolutiongithub.zip
+        solution-folder: out/solutions/samplesolutiongithub
         solution-type: 'Unmanaged'
         overwrite-files: true
 
     - name: branch-solution, prepare it for a PullRequest
       uses: microsoft/powerplatform-actions/branch-solution@v0
       with:
-        solution-folder: out/solutions/sample-solution-github
-        solution-target-folder: solutions/sample-solution-github
+        solution-folder: out/solutions/samplesolutiongithub
+        solution-target-folder: solutions/samplesolutiongithub
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         allow-empty-commit: true
