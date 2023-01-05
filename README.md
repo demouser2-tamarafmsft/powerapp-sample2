@@ -31,6 +31,20 @@ If you are working in a different branch than main, you will see these changes a
 
 ## Use github actions with your power platform solutions
 
+Here, we have two main workflows you can use with your solution 
+
+# Export and branch
+
+You can make changes to your solution, and then trigger a workflow in GitHub which unpacks the solution and creates a new branch. This is helpful for collaboration as it allows for quickly making a PR and viewing the changes made.
+
+<img width="951" alt="image" src="https://user-images.githubusercontent.com/122024492/210789256-de812e09-0de7-4cb5-948d-4a9276ad52b8.png">
+
+# Release solution to production
+
+
+
+
+
 You can check this [repo](https://github.com/microsoft/powerplatform-actions-lab) for further information.
 
 If you want to learn more about the current available actions, click [here](https://github.com/microsoft/powerplatform-actions) and here for the [documentation](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions)
