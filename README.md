@@ -1,1 +1,36 @@
 # powerapp-sample2
+
+## Connect your Canvas App to GitHub
+
+You can connect your canvas app to use git version control.
+
+In you app go to:
+
+ - Settings > Upcoming features > Activate git version control
+ 
+ ![image](https://user-images.githubusercontent.com/122024492/210783971-e60ab580-3643-4199-b332-d14c9a954171.png)
+
+ 
+ Then, connect to your repo indicating
+ - Repo URL
+ - branch -> for multiple team members, each can have a branch to enable collaboration across the app
+ - Directory (i.e. the folder where your app will be stored in the repo). If it does not exists, it will be created for you
+ - username
+ - GitHub access token (you can generate it by going to your GitHub Settings > Developer Settings > Personal access tokens > Generate  > Paste it in powerapps 
+ !! You need to enter your token each time you want to edit the app !! 
+ 
+ 
+ 
+After saving, you will see your folder in the repo with all elements.
+
+![image](https://user-images.githubusercontent.com/122024492/210783919-33ccd3c2-6f84-40fc-8007-61ecf7d11ac8.png)
+
+If you are working in a different branch than main, you will see these changes and can create a pull request.
+
+
+
+## Use github actions with your power platform solutions
+
+You can check this [repo](https://github.com/microsoft/powerplatform-actions-lab) for further information.
+
+If you want to learn more about the current available actions, click [here](https://github.com/microsoft/powerplatform-actions) and here for the [documentation](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions)
