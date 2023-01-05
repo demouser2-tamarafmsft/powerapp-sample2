@@ -9,7 +9,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 13:56:25",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 14:06:11",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -17,7 +17,7 @@
     "Kermit-computer": "374deae8-eff3-4eb7-9293-fca74eb6e35e.png"
   },
   "LocalResourceRootPaths": {
-    "Kermit-computer": "https://docserverpwaprodwus.blob.core.windows.net/75041832-348a-4b87-8ab5-6384b493dcae-1/resource/c46f193a-ed69-45e5-88d5-5160895e05cc.png?sv=2017-04-17&sr=b&sig=H1rxX6IEltz9DfMBqhBnfBMygYQGFWtwlbcqGjsVPGg%3D&spr=https&se=2023-01-06T14%3A09%3A25Z&sp=r"
+    "Kermit-computer": "https://docserverpwaprodwus.blob.core.windows.net/c945fc40-38f6-4895-965a-df2ebb84caf4-1/resource/Assets0Images0374deae8-eff3-4eb7-9293-fca74eb6e35e.png?sv=2017-04-17&sr=b&sig=uclXFPMt%2BnV3SYOuv9h9FQ2qeZjpUPhUOuzli3MXLIQ%3D&spr=https&se=2023-01-06T14%3A20%3A33Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -49,12 +49,13 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0852816,
+    "AnalysisLoadTime": 0.0918884,
     "ControlCount": {
+      "image": 1,
       "label": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.3180313,
+    "DeserializationLoadTime": 1.3841555,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
