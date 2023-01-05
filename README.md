@@ -48,3 +48,10 @@ You can make changes to your solution, and then trigger a workflow in GitHub whi
 You can check this [repo](https://github.com/microsoft/powerplatform-actions-lab) for further information.
 
 If you want to learn more about the current available actions, click [here](https://github.com/microsoft/powerplatform-actions) and here for the [documentation](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions)
+
+
+
+## Summary
+
+![image](https://user-images.githubusercontent.com/122024492/210815577-b239a518-6f4b-4e08-826c-8d82140741d4.png)
+
