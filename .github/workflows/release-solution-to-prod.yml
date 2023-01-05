@@ -22,8 +22,8 @@ jobs:
     - name: Pack solution
       uses: microsoft/powerplatform-actions/pack-solution@v0
       with:
-        solution-folder: solutions/samplesolutiongithub
-        solution-file: out/solutions/samplesolutiongithub.zip
+        solution-folder: solutions/githubsamplesolution
+        solution-file: out/solutions/githubsamplesolution.zip
         solution-type: Unmanaged
 
     - name: Import solution as unmanaged to build env
@@ -32,7 +32,7 @@ jobs:
         environment-url: 'https://org1f3bbabb.crm.dynamics.com/'
         user-name: 'admin@M365B962873.onmicrosoft.com'
         password-secret: ${{ secrets.POWERAPP_CREDENTIALS }}
-        solution-file: out/solutions/samplesolutiongithub.zip
+        solution-file: out/solutions/githubsamplesolution.zip
         force-overwrite: true
         publish-changes: true
 
@@ -42,15 +42,15 @@ jobs:
         environment-url: 'https://org1f3bbabb.crm.dynamics.com/'
         user-name: 'admin@M365B962873.onmicrosoft.com'
         password-secret: ${{ secrets.POWERAPP_CREDENTIALS }}
-        solution-name: samplesolutiongithub
+        solution-name: githubsamplesolution
         managed: true
-        solution-output-file: out/ship/samplesolutiongithub.zip
+        solution-output-file: out/ship/githubsamplesolution.zip
 
     - name: Upload the ready to ship solution to GH artifact store
       uses: actions/upload-artifact@v2
       with:
         name: managedSolutions
-        path: out/ship/samplesolutiongithub.zip
+        path: out/ship/githubsamplesolution.zip
 
   release-to-staging:
     needs: [ convert-to-managed ]
