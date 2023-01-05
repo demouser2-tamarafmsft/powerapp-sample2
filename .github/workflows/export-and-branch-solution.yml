@@ -25,14 +25,14 @@ jobs:
       with:
         environment-url: 'https://org1f3bbabb.crm.dynamics.com/'
         user-name: 'admin@M365B962873.onmicrosoft.com'
-        password-secret: ${{ secrets.POWERAPPS_CREDENTIALS }}
+        password-secret: ${{ secrets.POWERAPP_CREDENTIALS }}
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
         environment-url: 'https://org1f3bbabb.crm.dynamics.com/'
         user-name: 'admin@M365B962873.onmicrosoft.com'
-        password-secret: ${{ secrets.POWERAPPS_CREDENTIALS }}
+        password-secret: ${{ secrets.POWERAPP_CREDENTIALS }}
         solution-name: sample-solution-github
         solution-output-file: out/exported/sample-solution-github.zip
 
