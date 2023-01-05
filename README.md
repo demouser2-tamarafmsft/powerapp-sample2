@@ -1,6 +1,6 @@
 # powerapp-sample2
 
-## Connect your Canvas App to GitHub
+# Connect your Canvas App to GitHub
 
 You can connect your canvas app to use git version control.
 
@@ -29,17 +29,17 @@ If you are working in a different branch than main, you will see these changes a
 
 
 
-## Use github actions with your power platform solutions
+# Use github actions with your power platform solutions
 
 Here, we have two main workflows you can use with your solution 
 
-# Export and branch
+## Export and branch
 
 You can make changes to your solution, and then trigger a workflow in GitHub which unpacks the solution and creates a new branch. This is helpful for collaboration as it allows for quickly making a PR and viewing the changes made.
 
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/122024492/210789256-de812e09-0de7-4cb5-948d-4a9276ad52b8.png">
 
-# Release solution to production
+## Release solution to production
 
 
 
