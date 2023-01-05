@@ -9,3 +9,21 @@ Screen1 As screen:
         Y: =40
         ZIndex: =1
 
+    Image1 As image:
+        Height: =572
+        Image: ='Kermit-computer'
+        ImagePosition: =ImagePosition.Fill
+        Width: =493
+        X: =73
+        Y: =303
+        ZIndex: =2
+
+    Button1 As button:
+        Height: =132
+        Size: =24
+        Text: ="Click if you love Kermit"
+        Width: =387
+        X: =126
+        Y: =140
+        ZIndex: =3
+
