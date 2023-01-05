@@ -1,0 +1,61 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Image1": 5,
+    "Label1": 4,
+    "Screen1": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 13:56:25",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "Kermit-computer": "374deae8-eff3-4eb7-9293-fca74eb6e35e.png"
+  },
+  "LocalResourceRootPaths": {
+    "Kermit-computer": "https://docserverpwaprodwus.blob.core.windows.net/75041832-348a-4b87-8ab5-6384b493dcae-1/resource/c46f193a-ed69-45e5-88d5-5160895e05cc.png?sv=2017-04-17&sr=b&sig=H1rxX6IEltz9DfMBqhBnfBMygYQGFWtwlbcqGjsVPGg%3D&spr=https&se=2023-01-06T14%3A09%3A25Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "image": 1,
+    "label": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Image1": {},
+    "Label1": {},
+    "Screen1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Image1": 1,
+    "Label1": 0,
+    "Screen1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-Kermit-computer": 1,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0852816,
+    "ControlCount": {
+      "label": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.3180313,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
