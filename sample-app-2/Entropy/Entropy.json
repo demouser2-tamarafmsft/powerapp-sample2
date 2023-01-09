@@ -4,12 +4,13 @@
   "ControlUniqueIds": {
     "App": 1,
     "Button1": 5,
+    "Image1": 6,
     "Label1": 4,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/09/2023 14:42:15",
+  "HeaderLastSavedDateTimeUTC": "01/09/2023 14:42:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -22,12 +23,14 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 1,
+    "button": 2,
+    "image": 1,
     "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "Button1": {},
+    "Image1": {},
     "Label1": {},
     "Screen1": {}
   },
@@ -35,10 +38,13 @@
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 1,
+    "Image1": 0,
     "Label1": 0,
     "Screen1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
