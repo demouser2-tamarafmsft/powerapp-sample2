@@ -27,3 +27,12 @@ Screen1 As screen:
         Y: =666
         ZIndex: =3
 
+    Label2 As label:
+        Height: =70
+        Size: =21
+        Text: ="Hola chicas"
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =4
+
