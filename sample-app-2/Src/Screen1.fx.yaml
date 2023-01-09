@@ -21,6 +21,7 @@ Screen1 As screen:
 
     Image1 As image:
         Height: =320
+        Image: =R
         Width: =320
         X: =151
         Y: =666

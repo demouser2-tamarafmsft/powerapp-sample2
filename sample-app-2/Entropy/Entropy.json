@@ -3,19 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 5,
-    "Image1": 6,
+    "Button1": 6,
+    "Image1": 5,
     "Label1": 4,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/09/2023 14:42:47",
+  "HeaderLastSavedDateTimeUTC": "01/09/2023 14:44:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "R": "2b5436ee-1654-4f99-ac7e-40790cd0822c.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "R": "https://docserverpwaprodwus.blob.core.windows.net/07eb98dc-458c-49f4-b6c3-f2fc6f703166-1/resource/7abec9c5-49a8-4d5f-9911-a45787a65f44.jpg?sv=2017-04-17&sr=b&sig=9rkl7leO5NHJvfnGQTSzhvuOgD5RF%2FIHPdPkh9Y%2Fm%2F0%3D&spr=https&se=2023-01-10T14%3A59%3A09Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
@@ -43,18 +47,20 @@
     "Screen1": 0
   },
   "ResourcesJsonIndices": {
+    "Image-R": 1,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0853855,
+    "AnalysisLoadTime": 0.1070958,
     "ControlCount": {
       "button": 1,
+      "image": 1,
       "label": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 4.2388214,
+    "DeserializationLoadTime": 1.418151,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
